@@ -25,6 +25,15 @@ To use this project, you’ll need the following:
 
 Please ensure OpenCV is installed on your Raspberry Pi. Installing OpenCV on Raspberry Pi can be tricky, so consult the latest resources or guides for a successful installation method that fits your setup. 
 
+### NetworkManager Installation
+
+This project uses `nmcli` to manage Wi-Fi connections. To install `nmcli`, ensure that **NetworkManager** is installed on your Raspberry Pi:
+
+```bash
+sudo apt update
+sudo apt install network-manager
+```
+
 ## Installation
 
 1. **Clone this repository**:
